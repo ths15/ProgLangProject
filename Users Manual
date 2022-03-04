@@ -1,0 +1,40 @@
+Trey Smith
+Programming Languages
+Project 2
+User's Manual
+
+Setup and Compilation
+1. Download and unzip the submission from eLearning on a Linux box in the multi-platform lab.
+
+2. The submission includes:
+	a1.in
+	a2.in
+	a3.in
+	a4.in
+	a5.in
+	a6.in
+	a7.in
+	a8.in
+	LexicalAnalyzer.c
+	LexicalAnalyzer.h
+	main.c
+	makefile
+	Parser.c
+	Parser.h
+	SymbolTable.c
+	SymbolTable.h
+	User's Manual
+  run script
+
+3. Environment: This program has been tested in the multi-platform lab and will run there.
+
+4. Compiling. This program includes a run script. At the command line in Linux, type "./run". The program should fully complete from there.
+
+Running the program: Be sure files a1-a8 are in the same directory as the executable. Issue the command "./run". This command will automatically run the program eight
+times using all files a1-a8. If needed, individual files can be checked using the command "./runProgram <filename>". 
+
+User input: No user interaction with the program is required.
+
+Output: All output goes to the console and .out files. It will notify the user if the file ran successfully or had an error. If successful, the contents of the symbol table will be displayed
+to show the unique identifiers encountered during the run. A .out file will also be produced to show the registers and postfix expression. If an error occurs, the console will display the type of error and on which line it occurred. Results for all files 
+will be output at the same time but you will see which output corresponds with each file. 
