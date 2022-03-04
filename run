@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+echo "Starting"
+	make
+echo "makefile complete"
+echo "Running file a1.in"
+./runProgram a1.in 
+echo "Running file a2.in"
+./runProgram a2.in
+echo "Running file a3.in"
+./runProgram a3.in 
+echo "Running file a4.in"
+./runProgram a4.in
+echo "Running file a5.in"
+./runProgram a5.in 
+echo "Running file a6.in"
+./runProgram a6.in 
+echo "Running file a7.in"
+./runProgram a7.in 
+echo "Running file a8.in"
+./runProgram a8.in
